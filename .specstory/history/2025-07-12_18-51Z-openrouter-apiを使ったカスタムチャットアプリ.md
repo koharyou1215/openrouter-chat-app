@@ -5905,3 +5905,130 @@ Gemini系のモデルは提供されたAPIキーで自動的に動作します�
 
 ---
 
+_**User**_
+
+ありがとうございます Git　でリポジトリ作ればiPhoneサファリでも操作できるんですか？「ブラウザのカーソル」もしできるなら、そこまで案内してもらえますか？
+
+---
+
+_**Assistant**_
+
+はい！Gitリポジトリを作成すれば、iPhoneのSafariでも操作できるようになります。さらに、ブラウザのCursorも使えるようになります！
+
+## �� **Gitリポジトリ作成手順**
+
+### ① **GitHubでリポジトリを作成**
+
+
+---
+
+```bash
+git init
+```
+
+```
+PS C:\Users\kohar\Desktop\script\エージェント> git init
+Initialized empty Git repository in C:/Users/kohar/Desktop/script/エージェント/.git/
+PS C:\Users\kohar\Desktop\script\エージェント>
+```
+
+---
+
+```diff
+- 
++ # Dependencies
++ node_modules/
++ npm-debug.log*
++ yarn-debug.log*
++ yarn-error.log*
++ 
++ # Expo
++ .expo/
++ dist/
++ web-build/
++ 
++ # Native
++ *.orig.*
++ *.jks
++ *.p8
++ *.p12
++ *.key
++ *.mobileprovision
++ 
++ # Metro
++ .metro-health-check*
++ 
++ # Debug
++ npm-debug.*
++ yarn-debug.*
++ yarn-error.*
++ 
++ # macOS
++ .DS_Store
++ *.pem
++ 
++ # local env files
++ .env*.local
++ 
++ # typescript
++ *.tsbuildinfo
++ 
++ # IDE
++ .vscode/
++ .idea/
++ *.swp
++ *.swo
++ 
++ # OS generated files
++ Thumbs.db
++ ehthumbs.db
++ Desktop.ini 
+```
+
+---
+
+```bash
+git add .
+```
+
+```
+PS C:\Users\kohar\Desktop\script\エージェント> git add .
+warning: in the working copy of 'openrouter-chat-simple/.gitignore', LF will be replaced by CRLF the 
+next time Git touches it
+warning: in the working copy of 'openrouter-chat-simple/App.tsx', LF will be replaced by CRLF the nex
+t time Git touches it
+warning: in the working copy of 'openrouter-chat-simple/app.json', LF will be replaced by CRLF the ne
+xt time Git touches it
+warning: in the working copy of 'openrouter-chat-simple/index.ts', LF will be replaced by CRLF the ne
+xt time Git touches it
+warning: in the working copy of 'openrouter-chat-simple/package-lock.json', LF will be replaced by CR
+LF the next time Git touches it
+warning: in the working copy of 'openrouter-chat-simple/package.json', LF will be replaced by CRLF th
+e next time Git touches it
+warning: in the working copy of 'openrouter-chat-simple/tsconfig.json', LF will be replaced by CRLF t
+he next time Git touches it
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git to
+uches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches
+ it
+PS C:\Users\kohar\Desktop\script\エージェント>
+```
+
+---
+
+```bash
+git commit -m "Initial commit: OpenRouter Chat App with Gemini API support"
+```
+
+```
+PS C:\Users\kohar\Desktop\script\エージェント> git commit -m "Initial commit: OpenRouter Chat App wit
+h Gemini API support"
+PS C:\Users\kohar\Desktop\script\エージェント>
+```
+
+---
+
+
+
+---
+
